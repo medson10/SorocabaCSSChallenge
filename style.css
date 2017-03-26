@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-areas:
+
+}
+
+.grid2 {
+  display: grid;
+  grid-template-areas:
+  "post sidebar"
+  "post sidebar"
+  "post sidebar";
+  grid-gap: 5px;
+}
+
+.grid3 {
+  display: grid;
+}
+
+.post {
+  background-color: red;
+  grid-item: post;
+}
+
+.sidebar {
+  background-color: red;
+  grid-item: sidebar;
+}
